@@ -12,8 +12,7 @@ var roomDataHandler = {
             dataType:'json',
             success: callBackFn,
             error: function (xhr, ajaxOptions, thrownError) {
-                    //alert(xhr.status);
-                    alert(thrownError);
+                     alert("Could not reach URL: "+url)
               }
         });
         return json;
@@ -31,7 +30,7 @@ var roomDataHandler = {
             data:newData,
             success: this.onUpdateRoomsSuccess,
             error: function (xhr, ajaxOptions, thrownError) {
-                    alert("Could not reach server");
+                    alert("Could not reach URL: "+url)
               }
         });
     },

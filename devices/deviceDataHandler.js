@@ -17,7 +17,7 @@ var deviceDataHandler = {
             success: callBackFn,
             error: function (xhr, ajaxOptions, thrownError) {
                     //alert(xhr.status);
-                    alert("Could not reach the URL");
+                    alert("Could not reach the URL:" +url);
               }
         });
     },
@@ -32,7 +32,7 @@ var deviceDataHandler = {
             dataType:'json',
             success: callBackFn,
             error: function (xhr, ajaxOptions, thrownError) {
-                alert("Could not reach the URL.  This may be because the user has not configured the server for the device yet.");
+                alert("Could not reach the URL: "+url + " .This may be because the user has not configured the server for the device yet.");
 
               }
         });
