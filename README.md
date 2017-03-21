@@ -18,49 +18,6 @@ a thermostat, with digital temperature control
 
 # How to use the application:
 
-The app has the following pre-defined data components created with the following JSON format:
-
-{
-    "rooms" : [
-    {
-            "name" : "Bedroom",
-            "id":"Bedroom1",
-            "devices" : [
-                {
-                    "name" : "Desk Lamp",
-                    "type" : "Light",
-                    "id" : "light_11",
-                    "url" : "<desk-lamp-url>"
-                }
-            ]
-    },
-    {
-            "name" : "LivingRoom",
-            "id":"LivingRoom2",
-            "devices" : [
-                {
-                    "name" : "Thermostat",
-                    "type" : "Thermostat",
-                    "id" : "temp_21",
-                    "url" : "<temp-monitor-url>"
-                }
-            ]
-    }
-    ],
-    "deviceTypes" : [
-        {
-            "name" : "Light",
-            "type" : "Light",
-            "img" : "devices/light/asset/lighton.png"
-        },
-        {
-            "name" : "Thermostat",
-            "type" : "Thermostat",
-            "img" : "devices/temp/asset/temp.png"
-        }
-    ]
-}
-
 Bedroom and LivingRoom are pre-defined rooms for a house.  These are displayed in the tabs in the bottom section of the page.  The highlighted tab (Bedroom in the above picture) is active and displays the controllable devices in that room.   
 The app is written to support two device types, a ‘Lamp’ and a ‘Thermostat’.  The code can be easily leveraged to add and support additional devices.   
 The bedroom has a predefined ‘Desk Lamp’ device, and the LivingRoom has a predefined ‘Thermostat’ device.   
