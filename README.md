@@ -24,7 +24,7 @@ The bedroom has a predefined ‘Desk Lamp’ device, and the LivingRoom has a pr
 
 In the tab line there is a ‘+’ symbol.  Click on the ‘+’ to add a new room.   
 
-The Kitchen room will now display as a new tab at the bottom of the page:
+The Kitchen room will now display as a new tab at the bottom of the page.
 
 You can add a new device in any room by clicking on either the Add Lamp icon or the Add Thermostat icon.  For example, To add a new thermostat device in the Kitchen, click the  button.
 
