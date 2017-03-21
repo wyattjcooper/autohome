@@ -1,6 +1,4 @@
-# autohome
-
-#Home Automation Controller Web Application
+# Home Automation Controller Web Application
 
 Developed by Wyatt Cooper
 
