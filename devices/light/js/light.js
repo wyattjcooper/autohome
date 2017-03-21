@@ -14,8 +14,7 @@ var lightViewer =
         var deviceID = deviceData.id;
         $div = ($("<div>",{
           'id':"lightswitch"+deviceID,
-          'width':200,
-          'height':100
+
         }))
         $onSwitcher = $("<a>",{
               'id':deviceID+"-switch-on",

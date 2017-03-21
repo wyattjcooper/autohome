@@ -14,8 +14,7 @@ var tempViewer =
         var deviceID = deviceData.id;
         $div = ($("<div>",{
           'id':"tempcontroller"+deviceID,
-          'width':200,
-          'height':100
+          'width':200
         }));
         var $image = $("<img>", {
           'src':"devices/temp/asset/temp.png",
