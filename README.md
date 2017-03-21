@@ -40,6 +40,16 @@ When a new temperature is selected, the thermostat temperature is changed and a 
 
 The thermostat temperature now shows the new temperature that has been sent to the (mocked) device.  
 
+# Coding the display for a new device
+
+A new device can be created using the following functions:
+	
+	renderContent : returns a div rendering the content of the device, takes in the JSON data specifying the device and a pageID
+	this.change : reacts to changes to the devices controller
+	this.mockUpdate : mock update because the device does not reach a real HTTP server
+  
+  
+
 # References 
 
 Light bulb on: http://icons.iconarchive.com/icons/iconleak/or/256/light-bulb-icon.png
