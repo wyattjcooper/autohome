@@ -1,0 +1,42 @@
+{
+    "rooms" : [
+    {
+            "name" : "Bedroom",
+            "id":"Bedroom1",
+            "floorplan":"https://cdn4.iconfinder.com/data/icons/go-round-the-houses/60/floor-plan-512.png",
+            "devices" : [
+                {
+                    "name" : "Desk Lamp",
+                    "type" : "Light",
+                    "id" : "light_11",
+                    "url" : "light11-url"
+                }
+            ]
+    },
+    {
+            "name" : "LivingRoom",
+            "id":"LivingRoom2",
+            "floorplan":"https://cdn4.iconfinder.com/data/icons/go-round-the-houses/60/floor-plan-512.png",
+            "devices" : [
+                {
+                    "name" : "Thermostat",
+                    "type" : "Thermostat",
+                    "id" : "temp_21",
+                    "url" : "temp21-url"
+                }
+            ]
+    }
+    ],
+    "deviceTypes" : [
+        {
+            "name" : "Light",
+            "type" : "Light",
+            "img" : "devices/light/asset/lighton.png"
+        },
+        {
+            "name" : "Thermostat",
+            "type" : "Thermostat",
+            "img" : "devices/temp/asset/temp.png"
+        }
+    ]
+}
