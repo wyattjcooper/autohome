@@ -8,7 +8,7 @@ var roomDataHandler = {
         var json = [];
         $.ajax({
             type: 'GET',
-            url: "server/house.json",
+            url: "<house-config-url>/house.json",
             dataType:'json',
             success: callBackFn,
             error: function (xhr, ajaxOptions, thrownError) {
@@ -26,7 +26,7 @@ var roomDataHandler = {
         console.log("POST");
         $.ajax({
             type: 'POST',
-            url: "server/update.json",
+            url: "<house-config-url>/update.json",
             dataType:'json',
             data:newData,
             success: this.onUpdateRoomsSuccess,

@@ -9,7 +9,7 @@
                     "name" : "Desk Lamp",
                     "type" : "Light",
                     "id" : "light_11",
-                    "url" : "light11-url"
+                    "url" : "<desk-lamp-url>"
                 }
             ]
     },
@@ -22,7 +22,7 @@
                     "name" : "Thermostat",
                     "type" : "Thermostat",
                     "id" : "temp_21",
-                    "url" : "temp21-url"
+                    "url" : "<temp-monitor-url>"
                 }
             ]
     }

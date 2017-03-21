@@ -14,7 +14,7 @@ var house = {
 	    	$.ajax({
                 type: 'GET',
                 dataType:'json',
-                url: "server/house.json",
+                url: "<house-config-url>/house.json",
                 async: true, 
                 success: this.create,
                 error: function (xhr, ajaxOptions, thrownError) {
