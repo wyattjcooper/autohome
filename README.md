@@ -42,48 +42,37 @@ The thermostat temperature now shows the new temperature that has been sent to t
 
 # JSON format used to render the house 
 The <house-config-url> folder contains the following JSON document that specifies the house configuration:
-'''json
+
 {
-    "rooms" : [
-    {
-            "name" : "Bedroom",
-            "id":"Bedroom1",
-            "devices" : [
-                {
-                    "name" : "Desk Lamp",
-                    "type" : "Light",
-                    "id" : "light_11",
-                    "url" : "<desk-lamp-url>"
-                }
-            ]
-    },
-    {
-            "name" : "LivingRoom",
-            "id":"LivingRoom2",
-            "devices" : [
-                {
-                    "name" : "Thermostat",
-                    "type" : "Thermostat",
-                    "id" : "temp_21",
-                    "url" : "<temp-monitor-url>"
-                }
-            ]
-    }
-    ],
-    "deviceTypes" : [
-        {
-            "name" : "Light",
-            "type" : "Light",
-            "img" : "devices/light/asset/lighton.png"
-        },
-        {
-            "name" : "Thermostat",
-            "type" : "Thermostat",
-            "img" : "devices/temp/asset/temp.png"
-        }
-    ]
+    "rooms": [{
+        "name": "Bedroom",
+        "id": "Bedroom1",
+        "devices": [{
+            "name": "Desk Lamp",
+            "type": "Light",
+            "id": "light_11",
+            "url": ""
+        }]
+    }, {
+        "name": "LivingRoom",
+        "id": "LivingRoom2",
+        "devices": [{
+            "name": "Thermostat",
+            "type": "Thermostat",
+            "id": "temp_21",
+            "url": ""
+        }]
+    }],
+    "deviceTypes": [{
+        "name": "Light",
+        "type": "Light",
+        "img": "devices/light/asset/lighton.png"
+    }, {
+        "name": "Thermostat",
+        "type": "Thermostat",
+        "img": "devices/temp/asset/temp.png"
+    }]
 }
-'''
 
 # Coding the display for a new device
 
