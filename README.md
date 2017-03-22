@@ -18,7 +18,7 @@ a thermostat, with digital temperature control
 
 # How to use the application:
 
-Bedroom and LivingRoom are pre-defined rooms for a house.  These are displayed in the tabs in the bottom section of the page.  The highlighted tab (Bedroom in the above picture) is active and displays the controllable devices in that room.   
+Bedroom and LivingRoom are pre-defined rooms for a house.  These are displayed in the tabs in the bottom section of the page.  The highlighted tab is active and displays the controllable devices in that room.   
 The app is written to support two device types, a ‘Lamp’ and a ‘Thermostat’.  The code can be easily leveraged to add and support additional devices.   
 The bedroom has a predefined ‘Desk Lamp’ device, and the LivingRoom has a predefined ‘Thermostat’ device.   
 
