@@ -89,6 +89,8 @@ A new device can be created by making a variable that implements the following f
  {
 	"value":"value of some data that is used to display the status of the device"
 	"id":"unique identifier of the device"
+	"name":"name of the device"
+	"url": "URL where the device can be reached via http requests"
 }
  ```
  The device must be added to the "deviceTypes" data in the house.json file.  This must include name, type, and img to display the icon of the device on the "Add Devices" bar on the top of the screen.
