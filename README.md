@@ -41,7 +41,7 @@ When a new temperature is selected, the thermostat temperature is changed and a 
 The thermostat temperature now shows the new temperature that has been sent to the (mocked) device at the URL that was given upon creation.  
 
 # JSON format used to render the house 
-The "<house-config-url>" folder contains the following JSON document that specifies the house configuration:
+The "house-config-url" folder contains the following JSON document that specifies the house configuration:
 ```javascript
 {
     "rooms": [{
