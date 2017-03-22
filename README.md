@@ -41,7 +41,7 @@ When a new temperature is selected, the thermostat temperature is changed and a 
 The thermostat temperature now shows the new temperature that has been sent to the (mocked) device at the URL that was given upon creation.  
 
 # JSON format used to render the house 
-The <house-config-url> folder contains the following JSON document that specifies the house configuration:
+The "<house-config-url>" folder contains the following JSON document that specifies the house configuration:
 ```javascript
 {
     "rooms": [{
@@ -85,12 +85,12 @@ A new device can be created by making a variable that implements the following f
 
  The JSON data encoding the device must include the following properties: 
  
- '''json
+ ```javascript
  {
 	"value":"value of some data that is used to display the status of the device"
 	"id":"unique identifier of the device"
 }
- '''
+ ```
  The device must be added to the "deviceTypes" data in the house.json file.  This must include name, type, and img to display the icon of the device on the "Add Devices" bar on the top of the screen.
  
  In addition, there is a dictionary in js/createpage.js that maps the device variable to the name given to the 'type' property for the device in the house.json file. 
