@@ -42,7 +42,7 @@ The thermostat temperature now shows the new temperature that has been sent to t
 
 # JSON format used to render the house 
 The <house-config-url> folder contains the following JSON document that specifies the house configuration:
-
+```javascript
 {
     "rooms": [{
         "name": "Bedroom",
@@ -73,6 +73,7 @@ The <house-config-url> folder contains the following JSON document that specifie
         "img": "devices/temp/asset/temp.png"
     }]
 }
+```
 
 # Coding the display for a new device
 
